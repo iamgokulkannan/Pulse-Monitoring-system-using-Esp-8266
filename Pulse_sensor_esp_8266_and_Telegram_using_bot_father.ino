@@ -6,19 +6,19 @@
 
 // Replace with your network credentials
 const char* ssid = "OnePlus Nord2 5G";
-const char* password = "vi3iq4y8";
+const char* password = "";
 int PulseSensorPurplePin = A0;        // Pulse Sensor PURPLE WIRE connected to ANALOG PIN 0
 int Signal; 
 int a;               // holds the incoming raw data. Signal value can range from 0-1024        // Determine which Signal to "count as a beat", and which to ingore.
 
 
 // Initialize Telegram BOT
-#define BOTtoken "6220196984:AAGS7Xm_PZ0JX8-QYjziIyRxq1FKh4LJf7Q"  // your Bot Token (Get from Botfather)
+#define BOTtoken ""  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "2034883649"
+#define CHAT_ID ""
 
 X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 WiFiClientSecure client;
